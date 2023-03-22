@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.example.Searching.apis.kakao.KakaoApiClientTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.127 s <<< FAILURE! - in com.example.Searching.apis.kakao.KakaoApiClientTest
+testSearchPlace  Time elapsed: 0.096 s  <<< ERROR!
+org.springframework.web.client.HttpClientErrorException$Unauthorized: 401 Unauthorized: "{"errorType":"AccessDeniedError","message":"wrong appKey($api.kakao.key) format"}"
+	at com.example.Searching.apis.kakao.KakaoApiClientTest.testSearchPlace(KakaoApiClientTest.java:21)
+
