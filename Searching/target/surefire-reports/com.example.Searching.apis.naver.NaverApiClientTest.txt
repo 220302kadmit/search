@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.example.Searching.apis.naver.NaverApiClientTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.515 s <<< FAILURE! - in com.example.Searching.apis.naver.NaverApiClientTest
-testSearchPlace  Time elapsed: 0.461 s  <<< ERROR!
-org.springframework.web.client.HttpClientErrorException$BadRequest: 400 Bad Request: "{"errorMessage":"/v1/search : Malformed URL (잘못된 형식의 호출 URL입니다.)","errorCode":"061"}"
-	at com.example.Searching.apis.naver.NaverApiClientTest.testSearchPlace(NaverApiClientTest.java:21)
-
